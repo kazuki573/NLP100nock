@@ -1,6 +1,4 @@
 import CaboCha
-import pydotplus
-import subprocess
 def make_analyzed_file(input_file_name: str, output_file_name: str) -> None:
     """
     プレーンな日本語の文章ファイルを係り受け解析してファイルに保存する.
